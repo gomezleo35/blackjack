@@ -18,7 +18,7 @@ const Formulario = ({
   return (
     <>
         <div className='flex justify-center mt-6'>
-        <div className='flex flex-col items-cente  bg-orange-500 py-20 px-10 rounded-md border-4 border-red-800 md:w-1/3 sm:w-full'>
+        <div className='flex flex-col items-cente'>
             <h1 className='text-center mb-9 text-4xl'>Estrategia BlackJack</h1>
             <form className="w-full max-w-lg"
                 onSubmit={handleSubmit}
